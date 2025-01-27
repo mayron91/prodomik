@@ -1,0 +1,42 @@
+{
+  "name": "frontendkit",
+  "version": "1.2.2",
+  "main": "index.js",
+  "author": "Samodurov I.A.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "NODE_ENV=production gulp build",
+    "mocks": "mockserver -p 9001 -m ./mocks"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^4.0.31",
+    "axios": "^1.2.0",
+    "custom-event-polyfill": "^1.0.7",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-nunjucks": "^5.0.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-typograf": "^4.0.2",
+    "inputmask": "^5.0.7",
+    "node-sass": "^8.0.0",
+    "normalize.css": "^8.0.1",
+    "postcss": "^8.4.19",
+    "postcss-combine-media-query": "^1.0.0",
+    "postcss-import": "^15.0.0",
+    "postcss-pxtorem": "^6.0.0",
+    "postcss-sort-media-queries": "^4.3.0",
+    "swiper": "8.4.5",
+    "vue-loader": "^17.0.1",
+    "vue-template-compiler": "^2.7.14",
+    "vuex": "^4.1.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "mockserver": "^3.1.1",
+    "webpack": "^5.75.0"
+  }
+}

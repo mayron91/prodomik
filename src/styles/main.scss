@@ -1,0 +1,77 @@
+@import '../../node_modules/normalize.css/normalize.css';
+// @import '../../node_modules/swiper/swiper.scss';
+
+@import './breakpoints.scss';
+@import './mixins.scss';
+
+// ------------------------------------
+//      V A R I A B L E S
+// ------------------------------------
+
+$font-family: 'Fira Sans', sans-serif;
+$font-color: #000;
+$base-transition: all 230ms ease;
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html, body {
+    font-family: $font-family;
+    color: $font-color;
+    font-size: 16PX;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @include respond-from('laptop-hdpi') {
+        font-size: 18PX;
+    }
+    @include respond-from('2K') {
+        font-size: 21PX;
+    }
+    @include respond-from('UHD') {
+        font-size: 34PX;
+    }
+}
+
+.site-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.container {
+    width: 100%;
+    padding: 0 40px;
+    margin: 0 auto;
+    transition: $base-transition;
+    @include respond-to('medium') {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+// ------------------------------------
+//      B L O C K S
+// ------------------------------------
+
+@import './blocks/typography.scss';
+@import './blocks/buttons.scss';
+@import './blocks/icons.scss';
+@import './blocks/header.scss';
+@import './blocks/footer.scss';
+
+.logo {
+    display: block;
+    max-width: 150px;
+    &__img {
+        width: 100%;
+    }
+}
+
+// ------------------------------------
+//      S E C T I O N S
+// ------------------------------------
+
