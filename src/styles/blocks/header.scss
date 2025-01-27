@@ -1,4 +1,31 @@
 .header {
-    border: 1px solid;
-    padding: 15px 0;
+    padding: 15PX 0;
+    margin: 0 auto;
+    max-width: 1440PX;
+    width:100% ; 
+    height: 84PX; 
+    background:  url("../img/header_bg.jpg") no-repeat;
+    box-shadow: 0PX 0PX 30.100000381469727PX rgba(0, 0, 0, 0.06);
+}
+.header_wr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo__img {
+    margin: 10PX 0 0 85PX;
+}
+.header_link_wr {
+    margin-right: 85PX;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.header_link_wr a {
+    font-size: 20PX;
+    color: #fff;
+    margin-right: 13PX;
+    margin-top: 5PX;
 }

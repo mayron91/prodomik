@@ -8,7 +8,7 @@
 //      V A R I A B L E S
 // ------------------------------------
 
-$font-family: 'Fira Sans', sans-serif;
+$font-family: 'Nunito Sans', sans-serif;
 $font-color: #000;
 $base-transition: all 230ms ease;
 
@@ -34,7 +34,14 @@ html, body {
         font-size: 34PX;
     }
 }
-
+h1,h2,h3,h4,h5,p {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
 .site-wrapper {
     display: flex;
     flex-direction: column;
@@ -44,13 +51,9 @@ html, body {
 
 .container {
     width: 100%;
-    padding: 0 40px;
+    padding: 0;
     margin: 0 auto;
     transition: $base-transition;
-    @include respond-to('medium') {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
 }
 
 // ------------------------------------
