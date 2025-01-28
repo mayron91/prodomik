@@ -1,0 +1,35 @@
+.advantages {
+    width: 100%;
+    max-width: 1440PX;
+    margin: 0 auto;
+}
+.advantages h2 {
+    font-size: 48PX;
+    font-weight: 600;
+    margin-bottom: 50PX;
+    margin-top: 70PX;
+    margin-left: 86PX;
+}
+.advantages_wr {
+    display: flex;
+    flex-direction: row;
+    margin-left: 86PX;
+    margin-bottom: 40PX;
+}
+.advantages_card_wr {
+    width: 211PX;
+    margin-right: 54PX;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.advantages_card_wr img {
+    width: 130PX;
+    height: 130PX;
+}
+.advantages_card_wr h3 {
+    font-size: 20PX;
+    font-weight: 400;
+    margin-top: 15PX;
+    margin-bottom: 20PX;
+}

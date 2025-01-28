@@ -1,0 +1,61 @@
+.portfolio_wr {
+    width: 100%;
+    max-width: 1440PX;
+    margin: 0 auto;
+    position: relative;
+}
+.swiper_portfolio {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 40PX;
+    margin-bottom: 40PX;
+    width: 1268PX;
+}
+
+.swiper_portfolio h2 {
+    font-size: 48PX;
+    font-weight: 600;
+    padding-bottom: 45PX;
+}
+.swiper_portfolio .swiper-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+.swiper_portfolio .swiper-button-next_portfolio, .swiper_portfolio .swiper-button-prev_portfolio {
+    position: absolute;
+    content: url("../img/arrow.svg");
+    width: 70PX !important;
+    height: 70PX !important;
+    top: 0;
+    
+    z-index: 50;
+    cursor: pointer;
+}
+.swiper_portfolio .swiper-button-next_portfolio {
+    right: 0PX;
+    top: 44% !important;
+    right: 0PX;
+}
+.swiper_portfolio .swiper-button-prev_portfolio {
+    left: 0PX;
+    rotate: 180deg;
+}
+.swiper_portfolio .swiper-slide {
+    width: 400PX !important;
+}
+.swiper_portfolio .swiper-slide img {
+    width: 400PX;
+    height: 320PX;
+    border-radius: 12PX;
+}
+.swiper_portfolio .swiper-slide h3 {
+    font-size: 24PX;
+    font-weight: 500;
+    margin-top: 20PX;
+    margin-bottom: 20PX;
+}
+.swiper_portfolio .swiper-slide p {
+    font-size: 16PX;
+    font-weight: 400;
+}
