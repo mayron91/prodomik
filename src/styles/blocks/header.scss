@@ -6,6 +6,7 @@
     height: 84PX; 
     background:  url("../img/header_bg.jpg") no-repeat;
     box-shadow: 0PX 0PX 30.100000381469727PX rgba(0, 0, 0, 0.06);
+    display: flex;
 }
 .header_wr {
     display: flex;
@@ -29,3 +30,9 @@
     margin-right: 13PX;
     margin-top: 5PX;
 }
+.sticky {
+    position: fixed !important;
+    z-index: 999;
+    left: 50%;
+         transform: translateX(-50%);
+  }

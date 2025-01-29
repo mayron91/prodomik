@@ -1,0 +1,44 @@
+.price {
+    width: 100%;
+    max-width: 1440PX;
+    margin: 28PX auto 0 auto;
+    height: 501PX;
+    background-color: #fff;
+}
+.price_wr {
+    margin-left: 86PX;
+}
+.price_wr h2 {
+    font-size: 48PX;
+    font-weight: 600;
+    margin-top: 65PX;
+    margin-bottom: 45PX;
+}
+.price_card_wr {
+    display: flex;
+    flex-direction: row;
+}
+.price_card {
+    width: 232PX;
+    height: 276PX;
+    background-color: #F2F2F2;
+    border-radius: 12PX;
+    display: flex;
+    flex-direction: column;
+    margin-right: 27PX;
+}
+.price_card img {
+    width: 232PX;
+    height: 174PX;
+    border-radius: 12PX 12PX 0 0;
+}
+.price_card h4 {
+    font-size: 14PX;
+    font-weight: 600;
+    padding: 20PX 16PX;
+}
+.price_card p {
+    font-size: 14PX;
+    font-weight: 400;
+    padding: 0PX 16PX;
+}

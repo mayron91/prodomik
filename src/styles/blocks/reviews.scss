@@ -1,0 +1,63 @@
+.reviews_wr {
+    width: 100%;
+    max-width: 1440PX;
+    margin: 85PX auto 0 auto;
+    padding-left: 86PX;
+    position: relative;
+}
+.swiper_reviews {
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 40PX;
+    margin-bottom: 40PX;
+    width: 1268PX;
+}
+.reviews_title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.reviews_title h2 {
+    font-size: 48PX;
+    font-weight: 600;
+}
+.reviews_title img {
+    width: 47PX;
+    height: 47PX;
+    margin-left: 12PX;
+}
+.swiper_reviews .swiper-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.swiper_reviews .swiper-button-next_reviews, .swiper_reviews .swiper-button-prev_reviews {
+    position: absolute;
+    content: url("../img/arrow.svg");
+    width: 70PX !important;
+    height: 70PX !important;
+    top: 52% !important;
+    z-index: 50 !important;
+    cursor: pointer;
+}
+.swiper_reviews .swiper-button-next_reviews {
+    right: 0PX;
+    top: 54% !important;
+    right: 20PX;
+}
+.swiper_reviews .swiper-button-prev_reviews {
+    left: 20PX;
+    rotate: 180deg;
+}
+.swiper_reviews iframe {
+    width: 184PX;
+    height: 388PX;
+    border-radius: 12PX;
+}
+.swiper_reviews img {
+    width: 184PX;
+    height: 388PX;
+    border-radius: 12PX;
+}

@@ -1,0 +1,71 @@
+.post_wr {
+    width: 100%;
+    max-width: 1440PX;
+    margin: 45PX auto 0 auto;
+    height: 731PX;
+    background: url("../img/post/img.jpg");
+}
+.post_container {
+    width: 415PX;
+    height: 571PX;
+    position: relative;
+    padding: 80PX 0 0 86PX;
+}
+.post_container h2 {
+    font-size: 36PX;
+    font-weight: 400;
+    padding-bottom: 30PX;
+}
+.post_container p {
+    font-size: 16PX;
+    font-weight: 400;
+    margin-bottom: 35PX;
+}
+#name {
+    width: 415PX;
+    height: 62PX;
+    border: none;
+    background-color: #fff;
+    border-radius: 12PX;
+    color: #979797;
+    padding: 20PX;
+    margin-bottom: 20PX;
+}
+#email {
+    width: 415PX;
+    height: 62PX;
+    border: none;
+    background-color: #fff;
+    border-radius: 12PX;
+    color: #979797;
+    padding: 20PX;
+    margin-bottom: 20PX;
+}
+.post_f textarea {
+    width: 415PX;
+    height: 158PX;
+    border: none;
+    background-color: #fff;
+    border-radius: 12PX;
+    color: #979797;
+    padding: 20PX;
+    margin-bottom: 25PX;
+}
+.btn_slider_on_post {
+    width: 211PX;
+    height: 54PX;
+    background: linear-gradient(149deg, #D8E438 0%, #47B0B4 100%), linear-gradient(0deg, rgba(124, 195, 134, 0.50) 0%, rgba(124, 195, 134, 0.50) 100%); 
+    border-radius: 12px;
+    padding: 10PX;
+    color: #fff;
+    font-size: 16PX;
+    font-weight: 600;
+    bottom: 115PX;
+    left: 190PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}

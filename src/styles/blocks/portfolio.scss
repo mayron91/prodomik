@@ -5,10 +5,9 @@
     position: relative;
 }
 .swiper_portfolio {
-    position: relative;
     margin: 0 auto;
     overflow: hidden;
-    padding-top: 40PX;
+    padding-top: 10PX;
     margin-bottom: 40PX;
     width: 1268PX;
 }
@@ -27,18 +26,17 @@
     content: url("../img/arrow.svg");
     width: 70PX !important;
     height: 70PX !important;
-    top: 0;
-    
-    z-index: 50;
+    top: 43% !important;
+    z-index: 50 !important;
     cursor: pointer;
 }
 .swiper_portfolio .swiper-button-next_portfolio {
     right: 0PX;
     top: 44% !important;
-    right: 0PX;
+    right: 20PX;
 }
 .swiper_portfolio .swiper-button-prev_portfolio {
-    left: 0PX;
+    left: 20PX;
     rotate: 180deg;
 }
 .swiper_portfolio .swiper-slide {
