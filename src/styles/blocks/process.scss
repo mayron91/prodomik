@@ -45,3 +45,44 @@
     max-width: 414PX;
     padding: 25PX 0;
 }
+
+  /*768*/
+  @media only screen and (min-width: 768px) and (max-width: 1439px) {
+
+  }
+/*360*/
+@media only screen and (max-width: 767px) {
+    
+    .process_wr {
+        margin-left: 0;
+    }
+    .process_card_wr {
+        margin-left: 0;
+        width: 50%;
+    }
+   
+    .process_wr h2 {
+        font-size: 32PX;
+        margin: 5PX 0 0 15PX;
+    }
+    .process_numb {
+        font-size: 20PX;
+        margin-left: 15PX;
+        margin-top: 35PX;
+    }
+    .process_line {
+        margin-bottom: 5PX;
+    }
+    .process_info {
+        margin: 36PX 0 0 10PX;
+    }
+    .process_info h3 {
+        font-size: 16PX;
+        padding-right: 5PX;
+    }
+    .process_info p {
+        font-size: 12PX;
+        padding: 15PX 0;
+        max-width: 136PX;
+    }
+}

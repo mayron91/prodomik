@@ -63,3 +63,20 @@
 .footer_tel {
     width: 100%;
 }
+  /*768*/
+  @media only screen and (min-width: 768px) and (max-width: 1439px) {
+
+  }
+/*360*/
+@media only screen and (max-width: 767px) {
+    .footer_wr {
+        flex-direction: column;
+    }
+    .footer_middle {
+        flex-direction: column;
+        width: 150PX;
+    }
+    .footer_right {
+        flex-direction: column;
+    }
+}

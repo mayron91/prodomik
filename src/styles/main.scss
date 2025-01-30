@@ -87,3 +87,15 @@ a {
 //      S E C T I O N S
 // ------------------------------------
 
+/*768*/
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+    .container {
+        max-width: 768PX;
+    }
+    }
+    /*360*/
+    @media only screen and (max-width: 767px) {
+        .container {
+            max-width: 100%;
+        }
+    }

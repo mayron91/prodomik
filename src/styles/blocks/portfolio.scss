@@ -57,3 +57,45 @@
     font-size: 16PX;
     font-weight: 400;
 }
+  /*768*/
+  @media only screen and (min-width: 768px) and (max-width: 1439px) {
+
+  }
+/*360*/
+@media only screen and (max-width: 767px) {
+    .swiper_portfolio {
+        width: 100%;
+        overflow: hidden;
+    }
+    .swiper_portfolio h2 {
+        font-size: 32PX;
+        padding-bottom: 20PX;
+    }
+    .portfolio_wr {
+        margin: 15PX 0 0 15PX;
+        
+    }
+    .swiper_portfolio .swiper-slide {
+        width: 279PX !important;
+        height: 384PX !important;
+    }
+    .swiper_portfolio .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        max-width: 279PX;
+        max-height: 222PX;
+        object-fit: cover;
+    }
+    .swiper_portfolio .swiper-slide h3 {
+        font-size: 18PX;
+        margin-bottom: 15PX;
+    }
+    .swiper_portfolio .swiper-slide p {
+        font-size: 14PX;
+        padding-top: 0PX;
+        margin-top: 0;
+    }
+    .swiper_portfolio .swiper-button-next_portfolio, .swiper_portfolio .swiper-button-prev_portfolio {
+        display: none;
+    }
+}

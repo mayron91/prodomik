@@ -18,3 +18,24 @@
     border-radius: 12PX;
     overflow: hidden;
 }
+/*768*/
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  
+    }
+/*360*/
+@media only screen and (max-width: 767px) {
+    .about h2 {
+        margin-left: 15PX;
+        margin-top: 65PX;
+        font-size: 32PX;
+    }
+    .video_wr {
+        padding: 0 15PX;
+        margin-top: 15PX;
+    }
+    .video_wr iframe {
+        aspect-ratio: 4/3;
+        height: auto;
+        max-height: 250PX;
+    }
+    }

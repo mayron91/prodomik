@@ -61,3 +61,13 @@
     height: 388PX;
     border-radius: 12PX;
 }
+  /*768*/
+  @media only screen and (min-width: 768px) and (max-width: 1439px) {
+
+  }
+/*360*/
+@media only screen and (max-width: 767px) {
+    .swiper_reviews {
+        width: 100%;
+    }
+}

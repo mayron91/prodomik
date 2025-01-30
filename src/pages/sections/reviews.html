@@ -51,11 +51,26 @@
     
     const swiper3 = new Swiper ('.swiper_reviews', {
 // Optional parameters
-direction: 'horizontal',
-loop: true,
-slidesPerView: 5,
-spaceBetween: 20,
-slidesPerGroupAuto: true,
+slidesPerView: 'auto',
+  loop:true,
+    spaceBetween: 20,
+    centeredSlides: false,
+    freeMode: true,
+    freeModeSticky: true,
+    grabCursor: true,
+    snap: true,
+    freeModeSticky: true,
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        }
+    },
 // Navigation arrows
 navigation: {
 nextEl: '.swiper-button-next_reviews',
