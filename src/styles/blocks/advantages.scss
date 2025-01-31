@@ -15,6 +15,7 @@
     flex-direction: row;
     margin-left: 86PX;
     margin-bottom: 40PX;
+    
 }
 .advantages_card_wr {
     width: 211PX;
@@ -39,10 +40,12 @@
   }
 /*360*/
 @media only screen and (max-width: 767px) {
+    .advantages {overflow: hidden;}
    .advantages_wr {
     width: 100%;
     flex-wrap: wrap;
     margin-left: 15PX;
+    padding-right: 15px;
    }
    .advantages h2 {
     font-size: 32PX;

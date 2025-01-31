@@ -63,6 +63,9 @@
   }
 /*360*/
 @media only screen and (max-width: 767px) {
+    .portfolio {
+        overflow: hidden;
+    }
     .swiper_portfolio {
         width: 100%;
         overflow: hidden;
@@ -73,7 +76,7 @@
     }
     .portfolio_wr {
         margin: 15PX 0 0 15PX;
-        
+        padding-right: 15px;
     }
     .swiper_portfolio .swiper-slide {
         width: 279PX !important;

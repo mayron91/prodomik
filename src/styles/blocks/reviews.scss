@@ -10,7 +10,11 @@
     overflow: hidden;
     padding-top: 40PX;
     margin-bottom: 40PX;
-    width: 1268PX;
+    max-width: 1268PX;
+    width: 100%;
+}
+.swiper_reviews .swiper-slide {
+    flex-shrink: 0; /* Запрещаем слайдам сжиматься */
 }
 .reviews_title {
     display: flex;
@@ -67,7 +71,40 @@
   }
 /*360*/
 @media only screen and (max-width: 767px) {
+    .reviews {
+        overflow: hidden;
+    }
     .swiper_reviews {
         width: 100%;
+        padding-top: 20PX;
+        margin-bottom: 15PX;
+    }
+    .reviews_wr {
+        margin-left: 15PX;
+        padding-left: 15PX;
+    }
+    .reviews_title h2 {
+        font-size: 32PX;
+    }
+    .reviews_title img {
+        width: 32PX;
+        height: 32PX;
+    }
+    .swiper_reviews .swiper-button-next_reviews, .swiper_reviews .swiper-button-prev_reviews {
+        display: none;
+    }
+    .swiper_reviews .swiper-slide {
+        width: 168PX;
+        height: 353PX;
+    }
+    .swiper_reviews img {
+        width: 168PX;
+        height: 353PX;
+        border-radius: 12PX;
+    }
+    .swiper_reviews iframe {
+        width: 168PX;
+        height: 353PX;
+        border-radius: 12PX;
     }
 }

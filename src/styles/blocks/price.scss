@@ -49,10 +49,48 @@
   }
 /*360*/
 @media only screen and (max-width: 767px) {
+    .price_wr {
+        margin-left: 15PX;
+        margin-right: 15PX;
+    }
     .price_card_wr {
         flex-direction: column;
     }
     .price {
         height: auto;
+        padding-top: 45PX;
+        margin-top: 0;
+    }
+    .price_wr h2 {
+        font-size: 32PX;
+        margin-top: 0PX;
+        margin-bottom: 20PX;
+    }
+    .price_card {
+        flex-direction: row;
+        width: 100%;
+        height: 114PX;
+        flex-wrap: wrap;
+        margin-bottom: 14PX;
+    }
+    .price_card img {
+        width: 86PX;
+        height: 114PX;
+        border-radius: 8PX 0 0 8PX;
+        object-fit: cover;
+        position: relative;
+    }
+    .price_card h4 {
+        width: 200PX;
+        height: auto;
+        font-size: 14PX;
+        padding: 35PX 5PX 35PX 20PX;
+    }
+    .price_card p {
+        width: 200PX;
+        height: auto;
+        position: absolute;
+        font-size: 14PX;
+        margin: 65PX 0 0 90PX;
     }
 }
