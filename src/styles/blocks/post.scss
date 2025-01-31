@@ -71,7 +71,37 @@
 }
  /*768*/
  @media only screen and (min-width: 768px) and (max-width: 1439px) {
-
+    .post_container {
+        width: 100%;
+        padding: 35PX 0 0 15PX;
+    }
+    .post_wr {
+        height: 636PX;
+        background: url("../img/post/img_mob.jpg");
+    }
+    .post_container h2 {
+        font-size: 32PX;
+        padding-bottom: 25PX;
+    }
+    .post_container p {
+        font-size: 16PX;
+    }
+    #name {
+        width: 100%;
+        max-width: 345PX;
+    }
+    #email {
+        width: 100%;
+        max-width: 345PX;
+    }
+    .post_f textarea {
+        width: 100%;
+        max-width: 345PX;
+    }
+    .btn_slider_on_post {
+        width: 100%;
+        max-width: 345PX;
+    }
  }
 /*360*/
 @media only screen and (max-width: 767px) {

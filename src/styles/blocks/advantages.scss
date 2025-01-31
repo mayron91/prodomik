@@ -36,7 +36,42 @@
 }
   /*768*/
   @media only screen and (min-width: 768px) and (max-width: 1439px) {
-
+.advantages {overflow: hidden;}
+   .advantages_wr {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 15PX;
+    padding-right: 15px;
+   }
+   .advantages h2 {
+    font-size: 32PX;
+    margin: 75PX 0 0 15PX;
+   }
+   .advantages_card_wr {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-right: 0;
+    margin-top: 30PX;
+   }
+   .advantages_card_wr img {
+    width: 50PX;
+    height: 50PX;
+   }
+   .advantages_card_wr h3 {
+    width: 280PX;
+    font-size: 16PX;
+    margin-left: 15PX;
+    margin-top: 15PX;
+    margin-bottom: 0;
+   }
+   .advantages_card_wr p {
+    font-size: 14PX;
+    margin-left: 65PX;
+    margin-top: 0PX;
+    width: 280PX;
+    padding-right: 5PX;
+   }
   }
 /*360*/
 @media only screen and (max-width: 767px) {

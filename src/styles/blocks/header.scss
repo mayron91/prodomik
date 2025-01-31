@@ -38,7 +38,31 @@
   }
   /*768*/
 @media only screen and (min-width: 768px) and (max-width: 1439px) {
-
+    .header {
+        height: 61PX;
+        padding: 5PX 0;
+    }
+    .header_wr {
+        width: 100%;
+    }
+    .header_link_wr {
+        margin-right: 0;
+    }
+     .header_link_wr a {
+        display: none;
+     }  
+     .header_link_wr a:last-child {
+        display: block;
+     }
+     .logo__img {
+        margin-left: 15PX;
+        width: 120PX;
+        height: 30PX;
+     }
+     .header_link_wr a {
+        font-size: 14PX;
+        margin: 15PX 15PX 0 0;
+     }
     }
 /*360*/
 @media only screen and (max-width: 767px) {
