@@ -60,6 +60,23 @@
     height: 388PX;
     border-radius: 12PX;
 }
+.iframe-wrapper {
+    position: relative;
+}
+.iframe-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Блокирует события */
+}
+
+.iframe-wrapper.active::before {
+    display: none; /* Разблокирует события */
+}
+
 .swiper_reviews img {
     width: 184PX;
     height: 388PX;
@@ -115,7 +132,6 @@
         margin-bottom: 15PX;
     }
     .reviews_wr {
-        margin-left: 15PX;
         padding-left: 15PX;
     }
     .reviews_title h2 {

@@ -71,6 +71,8 @@
     .footer_left {
         margin: 35PX 0 0 0;
         flex-direction: row;
+        align-items: center;
+        padding-right: 15PX;
     }
     .footer_left a:first-child {
         margin-right: 55PX;
@@ -90,18 +92,22 @@
         margin-top: 35PX;
         margin-left: 15PX;
         flex-wrap: nowrap;
+        margin-right: 15PX;
     }
     .footer_middle-wr {
         flex-direction: row;
         padding-right: 15PX;
         margin-bottom: 10PX;
+        
     }
     .footer_middle-wr a {
-        width: 50%;
+        width: 150PX;
         margin-bottom: 15PX;
         margin-right: 0;
     }
-    
+    .footer_middle-wr a:last-child {
+        margin-left: 30PX;
+    }
     .footer_right {
         width: 100%;
         margin: 35PX 0 0 15PX;
@@ -148,9 +154,12 @@
         margin-bottom: 10PX;
     }
     .footer_middle-wr a {
-        width: 50%;
+        width: 150PX;
         margin-bottom: 15PX;
         margin-right: 0;
+    }
+    .footer_middle-wr a:last-child {
+        margin-left: 30PX;
     }
     
     .footer_right {

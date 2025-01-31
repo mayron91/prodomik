@@ -72,12 +72,13 @@
  /*768*/
  @media only screen and (min-width: 768px) and (max-width: 1439px) {
     .post_container {
-        width: 100%;
+        width: 415PX;
         padding: 35PX 0 0 15PX;
     }
     .post_wr {
         height: 636PX;
-        background: url("../img/post/img_mob.jpg");
+        background: url("../img/post/img.jpg") no-repeat;
+        background-position: 100% 100%;
     }
     .post_container h2 {
         font-size: 32PX;
@@ -107,11 +108,13 @@
 @media only screen and (max-width: 767px) {
     .post_container {
         width: 100%;
+        max-width: 345PX;
         padding: 35PX 0 0 15PX;
     }
     .post_wr {
         height: 636PX;
-        background: url("../img/post/img_mob.jpg");
+        background: url("../img/post/img.jpg") no-repeat;
+        background-position: 100% 100%;
     }
     .post_container h2 {
         font-size: 32PX;
@@ -135,5 +138,11 @@
     .btn_slider_on_post {
         width: 100%;
         max-width: 345PX;
+    }
+}
+/*special*/
+@media only screen and (max-width: 375px) {
+    .post_wr {
+        background: url("../img/post/img_mob.jpg") no-repeat;
     }
 }
