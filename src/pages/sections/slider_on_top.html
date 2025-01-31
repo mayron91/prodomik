@@ -6,26 +6,26 @@
     <div class="swiper-wrapper">
       <!-- Slides -->
       <div class="swiper-slide swiper-slide_top"><picture>
-        <source media="(max-width:650px)" srcset="img/slider_on_top/img1_mob.jpg">
+        <source media="(max-width:768px)" srcset="img/slider_on_top/img1_mob.jpg">
         <img src="img/slider_on_top/img1.jpg" style="width:auto;">
-      </picture><a href="#name" class="btn_slider_on_top">Оставить заявку</a></div>
+      </picture><a href="#post" class="btn_slider_on_top">Оставить заявку</a></div>
       <div class="swiper-slide swiper-slide_top"><picture>
-        <source media="(max-width:650px)" srcset="img/slider_on_top/img2_mob.jpg">
+        <source media="(max-width:768px)" srcset="img/slider_on_top/img2_mob.jpg">
         <img src="img/slider_on_top/img2.jpg" style="width:auto;">
-      </picture><a href="#name" class="btn_slider_on_top">Оставить заявку</a></div>
+      </picture><a href="#post" class="btn_slider_on_top">Оставить заявку</a></div>
       <div class="swiper-slide swiper-slide_top"><picture>
-        <source media="(max-width:650px)" srcset="img/slider_on_top/img3_mob.jpg">
+        <source media="(max-width:768px)" srcset="img/slider_on_top/img3_mob.jpg">
         <img src="img/slider_on_top/img3.jpg" style="width:auto;">
-      </picture><a href="#name" class="btn_slider_on_top">Оставить заявку</a></div>
+      </picture><a href="#post" class="btn_slider_on_top">Оставить заявку</a></div>
       <div class="swiper-slide swiper-slide_top"><picture>
-        <source media="(max-width:650px)" srcset="img/slider_on_top/img4_mob.jpg">
+        <source media="(max-width:768px)" srcset="img/slider_on_top/img4_mob.jpg">
         <img src="img/slider_on_top/img4.jpg" style="width:auto;">
-      </picture><a href="#name" class="btn_slider_on_top">Оставить заявку</a></div>
+      </picture><a href="#post" class="btn_slider_on_top">Оставить заявку</a></div>
       
     </div>
     <!-- If we need pagination -->
     <div class="swiper-pagination_top"></div>
-    <a href="#name" class="btn_slider_on_top btn_slider_on_top_mob">Оставить заявку</a>
+    <a href="#post" class="btn_slider_on_top btn_slider_on_top_mob">Оставить заявку</a>
   </div>
     </div>
 </section>
@@ -33,9 +33,16 @@
     const swiper = new Swiper ('.swiper_top', {
   // Optional parameters
   direction: 'horizontal',
-  loop: true,
-  slidesPerView: 1,
-  spaceBetween: 5,
+  slidesPerView: 'auto',
+  loop:true,
+    spaceBetween: 20,
+    centeredSlides: true,
+    freeMode: true,
+    freeModeSticky: true,
+    grabCursor: true,
+    snap: true,
+    freeModeSticky: true,
+    
   // If we need pagination
   pagination: {
     el: '.swiper-pagination_top',

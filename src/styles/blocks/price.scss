@@ -70,6 +70,10 @@
         height: 114PX;
         flex-wrap: wrap;
         margin-bottom: 14PX;
+        margin-right: 0;
+    }
+    .price_card:nth-child(2n) {
+        margin-left: 8%;
     }
     .price_card img {
         width: 86PX;
@@ -101,8 +105,6 @@
     .price_card_wr {
         flex-direction: column;
         align-items: center;
-        margin-left: 15PX;
-        
     }
     .price {
         height: auto;
@@ -117,10 +119,11 @@
     .price_card {
         flex-direction: row;
         width: 100%;
-        max-width: 345PX;
+        max-width: 450PX;
         height: 114PX;
         flex-wrap: wrap;
         margin-bottom: 14PX;
+        margin-right: 0;
     }
     .price_card img {
         width: 86PX;

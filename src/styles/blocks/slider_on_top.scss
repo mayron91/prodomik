@@ -8,9 +8,9 @@
 }
 
 .swiper-slide_top {
-    width: 100%;
+    width: 1267PX !important;
     margin: 20PX auto;
-    padding: 0 80PX;
+    padding: 0;
     position: relative;
 }
 .swiper-pagination_top {
@@ -62,7 +62,7 @@
        
        }
        .swiper-slide_top {
-        width: 100% !important;
+        width: 90% !important;
         min-width: 345PX !important;
         height: 100% !important;
         min-height: 437PX !important;
@@ -102,7 +102,7 @@
    
    }
    .swiper-slide_top {
-    width: 100% !important;
+    width: 345PX !important;
     min-width: 345PX !important;
     height: 100% !important;
     min-height: 437PX !important;
