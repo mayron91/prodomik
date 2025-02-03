@@ -42,15 +42,22 @@
     grabCursor: true,
     snap: true,
     freeModeSticky: true,
-    
+    breakpoints: {
+        320: {
+            spaceBetween: 0,
+        },
+        768: {
+          spaceBetween: 0,
+        },
+    },
   // If we need pagination
   pagination: {
     el: '.swiper-pagination_top',
     clickable: 'true',
   },
-  autoplay: {
-   delay: 5000,
-  },
+ // autoplay: {
+   //delay: 5000,
+  //},
 
  
 });

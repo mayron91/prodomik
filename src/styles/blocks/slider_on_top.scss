@@ -103,16 +103,17 @@
    }
    .swiper-slide_top {
     width: 345PX !important;
-    min-width: 345PX !important;
     height: 100% !important;
     min-height: 437PX !important;
-    padding: 0;
-    margin: 0;
+    padding: 0 !important;
+    margin: 0 !important;
  }
  .swiper-slide_top img {
     width: 100% !important;
     height: 100% !important;
     object-fit: contain;
+    padding: 0 !important;
+    margin: 0 !important ;
  }
  .swiper-pagination_top {
     position: relative;
